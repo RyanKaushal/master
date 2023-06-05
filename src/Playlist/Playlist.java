@@ -85,8 +85,8 @@ public class Playlist {
                 tail = null;
             }
         }
-
     }
+
     public LinkedList<String> getRecentlyPlayedSongs(String user) {
         if (playlist.containsKey(user)) {
             LinkedList<Song> nodes = playlist.get(user);

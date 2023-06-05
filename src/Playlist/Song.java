@@ -10,7 +10,6 @@ public class Song {
         this.songName=song;
         this.user=user;
 
-
     }
 
 }

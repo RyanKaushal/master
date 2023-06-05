@@ -19,7 +19,6 @@ public class Player {
           User plays song S2 from the list, playlist will display song sequence
           Expected o/p -  [S1, S3, S2]
           */
-
         store1.playSong("S2","user 1");
         System.out.println("Recently Played Playlist After Playing S2: " );
         System.out.println(store1.getRecentlyPlayedSongs("user 1"));
