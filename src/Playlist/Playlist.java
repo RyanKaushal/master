@@ -91,8 +91,8 @@ public class Playlist {
         if (playlist.containsKey(user)) {
             LinkedList<Song> nodes = playlist.get(user);
             LinkedList<String> songs = new LinkedList<>();
-            for (int i=nodes.size()-1;i>=0;i--) {
-                songs.add(nodes.get(i).songName);
+            for (Song node : nodes) {
+                songs.add(node.songName);
             }
             return songs;
 
